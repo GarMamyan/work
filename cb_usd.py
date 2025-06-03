@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 from datetime import datetime
 
-def get_usd_rub_rates(start_date="2019-01-01"):
+def get_usd_rub_rates(start_date="2024-12-26"):
     # Преобразуем даты в формат, нужный для API
     today = datetime.today()
     end_date = today.strftime("%d/%m/%Y")
