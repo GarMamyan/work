@@ -4,7 +4,7 @@ import logging
 import time
 
 
-from urls import settings
+from cb_curr.dop_info.api_operatio.urls import settings
 
 
 
