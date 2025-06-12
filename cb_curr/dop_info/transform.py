@@ -8,7 +8,7 @@ from datetime import datetime
 class TransformDopInfo:
 
     @staticmethod
-    def transform_dop_info(miss_df,start_date_fmt, end_date):
+    def transform_dop_info(miss_df: pd.DataFrame ,start_date_fmt, end_date):
         
         df = miss_df
         # Создаем полный диапазон дат
