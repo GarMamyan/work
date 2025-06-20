@@ -49,3 +49,4 @@ def get_usd_rub_rates(start_date="2024-12-26"):
 # Пример использования:
 df = get_usd_rub_rates()
 print(df)
+print(123)
